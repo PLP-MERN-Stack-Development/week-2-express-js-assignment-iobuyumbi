@@ -1,4 +1,32 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19734172&assignment_repo_type=AssignmentRepo)
+
+---
+
+# Week 2 Express.js Assignment
+
+This project implements a basic Express API for product management.
+
+## How to Run
+
+1. Install dependencies:
+   \`\`\`
+   npm install
+   \`\`\`
+
+2. Start the server:
+   \`\`\`
+   node server.js
+   \`\`\`
+
+## API Key
+
+All /api routes require an API key: \`?apikey=12345\`
+
+Example:
+\`GET http://localhost:3000/api/products?apikey=12345\`
+
+---
+
 # Express.js RESTful API Assignment
 
 This assignment focuses on building a RESTful API using Express.js, implementing proper routing, middleware, and error handling.
@@ -6,6 +34,7 @@ This assignment focuses on building a RESTful API using Express.js, implementing
 ## Assignment Overview
 
 You will:
+
 1. Set up an Express.js server
 2. Create RESTful API routes for a product resource
 3. Implement custom middleware for logging, authentication, and validation
@@ -60,4 +89,4 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 - [Express.js Documentation](https://expressjs.com/)
 - [RESTful API Design Best Practices](https://restfulapi.net/)
-- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) 
+- [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
